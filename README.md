@@ -5,6 +5,8 @@
 
 ## Information
 
+[![NPM](https://nodei.co/npm/gulp-preprocess.png)](https://npmjs.org/package/gulp-preprocess/)
+
 <table>
 <tr>
 <td>Package</td><td>gulp-preprocess</td>
@@ -107,6 +109,11 @@ Base directory for included files. By default, the path to included files is rel
 Type: `String`
 
 Override the file extension. This determines what [regular expressions are used for comments](https://github.com/jsoverson/preprocess/blob/master/lib/regexrules.js). You may wish to do this if you are using a custom extension or need to force a particular comment syntax (for example, to allow HTML-style comments in `.php` files).
+
+## Changelog
+### v2.0.0
+* Updated `preprocess` dependency to ^3.0.0
+* Updated devDependency `gulp-util`
 
 ## LICENSE
 
